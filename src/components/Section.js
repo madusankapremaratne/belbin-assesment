@@ -17,7 +17,7 @@ const Section = ({ section, updatePoints }) => {
   };
 
   return (
-    <div>
+    <div style={{padding: "2em 1em"}}>
       <h2>{section.title}</h2>
       <p>{section.description}</p>
       {section.statements.map((statement, idx) => (

@@ -49,7 +49,7 @@ function App() {
       {sections.map((section) => (
         <Section key={section.id} section={section} updatePoints={updatePoints} />
       ))}
-      <button onClick={calculateResults}>Submit Assessment</button>
+      <button onClick={calculateResults}>Show Results</button>
       {results && <Results results={results} />}
       <Disclaimer />
     </div>
