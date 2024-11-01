@@ -1,0 +1,154 @@
+/* src/styles.css */
+
+/* Logo container styling */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between logos */
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    height: 60px; /* Adjust as needed */
+    width: auto;
+  }
+  
+  /* Existing Global Styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .App {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #007bff;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center; /* Center the section heading */
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  /* Section Styling */
+  .section-card {
+    background-color: #fafafa;
+    margin: 15px 0;
+    padding: 20px; /* Add padding inside each section card */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+    text-align: left;
+  }
+  
+  .section-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #555;
+    padding-left: 20px; /* Adds left padding to each question */
+    text-align: left;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #007bff;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #666;
+    font-weight: 700;
+    padding: 10px 15px;
+  }
+  
+  /* Button Styling */
+  button {
+    display: block;
+    width: 90%; /* Set button width to 90% */
+    padding: 15px;
+    margin: 20px auto; /* Center the button */
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results Styling */
+  .results-card {
+    padding: 20px;
+    background-color: #e9f5ff;
+    border-radius: 8px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .results-card p {
+    font-size: 1.1em;
+  }
+  
+  /* Disclaimer Styling */
+  .disclaimer {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #eee;
+  }
+  
+  .disclaimer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .disclaimer a:hover {
+    text-decoration: underline;
+  }
+  
